@@ -8,7 +8,7 @@ object ApplicationBuild extends Build {
   val appVersion = "1.0-SNAPSHOT"
 
   val appDependencies = Seq(
-    "pdf" % "pdf_2.9.1" % "0.3.1"
+    "pdf" % "pdf_2.9.1" % "0.3.2"
   )
 
   val main = PlayProject(appName, appVersion, appDependencies, mainLang = SCALA).settings(
